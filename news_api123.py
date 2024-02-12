@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-news_api_key = "02149e8e8f884e2fad23ee38b07e308d"
+news_api_key = "enter the news api key "
 class NewsAPI:
     def __init__(self, news_api_key):
         self.news_api_key = news_api_key
