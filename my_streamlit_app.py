@@ -4,9 +4,9 @@ from news_video import VideoGenerator  # Adjusted import statement
 from dotenv import load_dotenv
 import os
 load_dotenv()
-news_api_key = "02149e8e8f884e2fad23ee38b07e308d"
+news_api_key = "enter the newsapi key"
 news_client = NewsAPI(news_api_key=news_api_key)  
-did_api_key = "Z3VuZGFsYXNyaWphNDEyMS5zc2VAc2F2ZWV0aGEuY29t:5LIjZUNtFTFGm436aKYOp"
+did_api_key = "enter the did apikey"
 username, password = did_api_key.split(':')
 video_gen = VideoGenerator(username, password)  # Corrected instance name
 st.set_page_config(
