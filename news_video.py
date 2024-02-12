@@ -58,6 +58,6 @@ class VideoGenerator:
 
         video_url = video_response["result_url"]
         return video_url
-did_api_key = "Z3VuZGFsYXNyaWphNDEyMS5zc2VAc2F2ZWV0aGEuY29t:5LIjZUNtFTFGm436aKYOp"
+did_api_key = "enter the did didapikey"
 username, password = did_api_key.split(':')
 VideoGen = VideoGenerator(username, password)
